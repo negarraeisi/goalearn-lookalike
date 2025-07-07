@@ -1,0 +1,100 @@
+header{
+    height: 10vh;
+    background-color: #FFC516;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: allPage;
+    src: url(media/Qs_Iranyekan\ medium.ttf);
+}
+
+*{
+    font-family: allPage;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#btnNav{
+    background-color:#9E1F64;
+    border: 1px solid #9E1F64;
+    color: white;
+    margin-left: 100px;
+    height: 50px;
+}
+
+#btnNav:hover{
+    background-color: white;
+    color: #9E1F64;
+}
+
+#nav2{
+    box-shadow: 1px 1px 15px;
+    height: 10vh;
+}
+
+main{
+    height: auto;
+    margin: 60px;
+}
+
+.progress-bar{
+    background-color: #9E1F64;
+    border-radius: 20px;
+}
+
+#cont1{
+    height: 17vh;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.colscont1{
+    height: 100%;
+    border-radius: 15px;
+}
+
+#rowcont1{
+    height: 100%;
+}
+
+.btnSub{
+    background-color: #9E1F64;
+    margin-left: auto;
+    width: 70px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 46%;
+}
+
+.btnSub2{
+    margin-right: 43%;
+    margin-left: 20px;
+
+}
+
+.btnPre{
+    background-color: #9E1F64;
+    width: 70px;
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer{
+    height: 20rem;
+    background-color: #282828;
+}
+
+.imgso{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}

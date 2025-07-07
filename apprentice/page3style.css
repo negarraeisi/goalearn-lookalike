@@ -1,0 +1,181 @@
+header{
+    height: 9vh;
+    background-color: #282828;
+    z-index: 2;
+}
+
+a:hover{
+    background-color: #FFC516;
+}
+
+
+@font-face {
+    font-family: allPage;
+    src: url(../media/Qs_Iranyekan\ medium.ttf);
+}
+
+*{
+    font-family: allPage;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+main{
+    height: auto;
+    position: relative;
+}
+footer{
+    height: 40vh;
+    background-color: #282828;
+}
+
+.imgso{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+#containerHome{
+    height: 40vh;
+    background-color: #FCF6FF;
+    background: url(../media/Vector\ 1.png) no-repeat, url(../media/Vector\ 2.png) no-repeat;
+    background-position: 70% 50%;
+    margin-top: 100px;
+}
+
+#par1{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#vertline{
+    border-right: thin solid black;
+}
+
+.article{
+    border: 1px solid #9E2064;
+    border-radius: 13px;
+    height: 80px;
+}
+
+
+#containerHome4{
+    background-color: #F8F1F5;
+    height: 30rem;
+}
+
+#first .tri{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid green;
+    top:-6px;
+    left:25px;
+}
+
+
+.level{
+    width:100px;
+    background:white;
+    border-radius:8px;
+    height:35px;
+    margin-top: 110%;
+    border: 2px solid #9E2064;  
+}
+
+.level1{
+    width:100px;
+    background:white;
+    border-radius:8px;
+    height:35px;
+    border: 2px solid #9E2064; 
+}
+    
+.arrow{
+    background:white;
+    height: 50px;
+    top:60%;
+    width: 50px;
+    margin-left: 29%;
+    margin-top: -29%;
+    transform:rotate(315deg);
+    border-bottom:1px black solid;
+    border-left:1px black solid;
+    z-index:0;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.arrow1{
+    background:white;
+    height: 50px;
+    top:60%;
+    width: 50px;
+    margin-left: 29%;
+    margin-top: -141%;
+    transform:rotate(135deg);
+    border-bottom:1px black solid;
+    border-left:1px black solid;
+    z-index:0;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.rectangle{
+    font-size: 12px;
+    z-index:5;
+    border: 1px black solid;
+    text-align:center;
+    word-wrap: break-word;
+    width:100px;
+    height:20px;
+    background:white;
+    height: 100px;
+    border-radius:15px;
+    border-bottom-right-radius:-10px;  
+    margin-top: 10%;
+}
+
+.rectangle1{
+    font-size: 12px;
+    z-index:5;
+    border: 1px black solid;
+    text-align:center;
+    word-wrap: break-word;
+    margin-top: 50%;
+    width:100px;
+    height:20px;
+    background:white;
+    height: 100px;
+    border-radius:15px;
+    border-bottom-right-radius:-10px;  
+}
+
+.line{
+    position: absolute;
+    top: 45%;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+}
+
+.rowHome4{
+    margin-top: 100px;
+}
+
+#anotherVertLine{
+    border-left: thin solid white;
+}
+
+#contHome6{
+    height: 55vh;
+}
+
+footer{
+    height: 20rem
+}

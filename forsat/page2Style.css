@@ -1,0 +1,198 @@
+header{
+    height: 5rem;
+    background-color: #282828;
+    z-index: 2;
+}
+
+a:hover{
+    background-color: #FFC516;
+}
+ 
+@font-face {
+    font-family: allPage;
+    src: url(../media/Qs_Iranyekan\ medium.ttf);
+}
+
+*{
+    font-family: allPage;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+main{
+    height: 150rem;
+}
+
+.jobimgs{
+    height: 40%;
+    width:100%;
+    margin-top: 50%;
+}
+
+.jobbigimg{
+    width: 100%;
+    height: 80%;
+}
+
+footer{
+    height: 40vh;
+    background-color: #282828;
+}
+
+.imgso{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.dot{
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    background-color: #D5D2D7;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color ease;
+}
+
+  
+#dot1:hover, #dot2:hover, #dot3:hover {
+    background-color: black;
+}
+
+#page2cont1{
+    height: 600px;
+    background-color: #FCF6FF;
+}
+
+#page2cont2{
+    height: 600px;
+
+    background-color: #FCF6FF;
+}
+
+#page2cont3{
+    height: 600px;
+
+    display: none;
+    background-color: #FCF6FF;
+}
+
+#page2cont4{
+    height: 70rem;
+}
+
+
+#containerHome4{
+    background-color: #FFF1CE;
+    height: 30rem;
+}
+
+#containerHome6{
+    height: 500px;
+}
+#containerHome7{
+    height: 20rem;
+    margin-top: 300px;
+    background-color: #282828;
+}
+
+#first .tri{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid green;
+    top:-6px;
+    left:25px;
+}
+
+
+.level{
+    width:100px;
+    background:white;
+    border-radius:8px;
+    height:35px;
+    margin-top: 110%;
+    border: 2px solid #FFC516;  
+}
+
+.level1{
+    width:100px;
+    background:white;
+    border-radius:8px;
+    height:35px;
+    border: 2px solid #FFC516; 
+}
+    
+.arrow{
+    background:white;
+    height: 50px;
+    top:60%;
+    width: 50px;
+    margin-left: 29%;
+    margin-top: -29%;
+    transform:rotate(315deg);
+    border-bottom:1px black solid;
+    border-left:1px black solid;
+    z-index:0;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.arrow1{
+    background:white;
+    height: 50px;
+    top:60%;
+    width: 50px;
+    margin-left: 29%;
+    margin-top: -141%;
+    transform:rotate(135deg);
+    border-bottom:1px black solid;
+    border-left:1px black solid;
+    z-index:0;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.rectangle{
+    font-size: 12px;
+    z-index:5;
+    border: 1px black solid;
+    text-align:center;
+    word-wrap: break-word;
+    width:100px;
+    height:20px;
+    background:white;
+    height: 100px;
+    border-radius:15px;
+    border-bottom-right-radius:-10px;  
+    margin-top: 10%;
+}
+
+.rectangle1{
+    font-size: 12px;
+    z-index:5;
+    border: 1px black solid;
+    text-align:center;
+    word-wrap: break-word;
+    margin-top: 50%;
+    width:100px;
+    height:20px;
+    background:white;
+    height: 100px;
+    border-radius:15px;
+    border-bottom-right-radius:-10px;  
+}
+
+.line{
+    position: absolute;
+    top: 45%;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+}
